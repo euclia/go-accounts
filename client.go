@@ -49,7 +49,7 @@ func (client *Client) GetUser(userID string, authToken string) (respUser models.
 	return user.GetUser(userID, authToken, client.C.BaseURL, client.C.HTTPClient)
 }
 
-// GetOrganization is a method to get a Dataset by ID.
+// GetOrganization is a method to get an Organization by ID.
 func (client *Client) GetOrganization(orgID string, authToken string) (respOrganization models.Organization, err error) {
 	return organization.GetOrganization(orgID, authToken, client.C.BaseURL, client.C.HTTPClient)
 }
