@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/euclia/accountsGoClient/models"
+	"github.com/euclia/go-accounts/models"
 )
 
 const (

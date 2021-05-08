@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/euclia/accountsGoClient/models"
-	"github.com/euclia/accountsGoClient/organization"
-	"github.com/euclia/accountsGoClient/user"
+	"github.com/euclia/go-accounts/models"
+	"github.com/euclia/go-accounts/organization"
+	"github.com/euclia/go-accounts/user"
 )
 
 const (
