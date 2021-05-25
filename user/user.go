@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	userPath = "/users"
+	userPath = "users"
 )
 
 // GetUser is a method to get User by its ID.

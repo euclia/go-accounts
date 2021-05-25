@@ -10,7 +10,7 @@ import (
 )
 
 const (
-	organizationPath = "/organizations"
+	organizationPath = "organizations"
 )
 
 // GetOrganization is a method to get an Organization by its ID.
